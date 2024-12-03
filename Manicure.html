@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manicure</title>
+    <script src="Manicure.js" defer> </script>
+</head>
+<body>
+<h1>Manicure Pricing</h1>
+
+<h2> Manicure Type</h2>
+<label> Regular - $25 </label>
+<input type="number" id="regular" min="0" value="0" >
+<br>
+<label> Regular - $35 </label>
+<input type="number" id="gel" min="0" value="0" >
+<br>
+<label> Powder - $45 </label>
+<input type="number" id="powder" min="0" value="0" >
+<br>
+<label> Hard Gel - $60 </label>
+<input type="number" id="hardgel" min="0" value="0" >
+<br>
+ <label> Russian Gel - $45 </label>
+<input type="number" id="russiangel" min="0" value="0" >
+
+<h2> Add ons </h2>
+<label>
+  <input type="checkbox" id = "design" value="10">
+  Design ($10)
+</label>
+<br>
+<label>
+  <input type="checkbox" id = "french" value="10">
+  French ($10)
+</label>
+<br>
+<label>
+  <input type="checkbox" id = "gems" value="7">
+  Gems ($7)
+</label>
+<br>
+<label>
+  <input type="checkbox" id = "tips" value="5">
+  Tips ($5)
+</label>
+<br>
+
+<h2> Massages </h2>
+<label>
+  Massage ($1 per minute)
+  <input type="number" id="massageminutes" min="0" value="0">
+</label>
+
+<h3> Total Price</h3>
+<aside>
+         <p>Total:$<span id="cost">0</span></p>
+      </aside>
+
+<footer>
+    <a href="M&S.html"> Back to main page </a>
+</footer>
+</body>
+</html>
