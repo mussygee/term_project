@@ -1,21 +1,5 @@
-header{
-    Position:sticky;
-}
-
-body {
-    background-image: url("flowers.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    background-repeat: no-repeat;
+html{
+    font-size: 10%;
 
 }
 
-html {
-    font-size: 350%;
-}
-
-footer {
-
-}
