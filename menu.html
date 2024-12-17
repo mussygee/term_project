@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu</title>
-    <script src="Manicure.js" defer> </script>
-     <script src = "onclick.js" defer></script>
+    <script src="Manicure.js" defer></script>
+    <script src="onclick.js" defer></script>
     <link href="menu.css" rel="stylesheet"/>
     <link href="fixedtopage.css" rel="stylesheet"/>
 </head>
@@ -23,58 +23,62 @@
 <h2>Menu</h2>
 
 <h3> Manicure Type</h3>
-<label for="regular"> Regular - $25 </label>
-<input type="number" id="regular" min="0" value="0" >
-<br>
-<label> Regular - $35 </label>
-<input type="number" id="gel" min="0" value="0" >
-<br>
-<label> Powder - $45 </label>
-<input type="number" id="powder" min="0" value="0" >
-<br>
-<label> Hard Gel - $60 </label>
-<input type="number" id="hardgel" min="0" value="0" >
-<br>
- <label> Russian Gel - $45 </label>
-<input type="number" id="russiangel" min="0" value="0" >
-
-<h3> Add ons </h3>
-<label>
-  <input type="checkbox" id = "design" value="10">
-  Design ($10)
-</label>
-<br>
-<label>
-  <input type="checkbox" id = "french" value="10">
-  French ($10)
-</label>
-<br>
-<label>
-  <input type="checkbox" id = "gems" value="7">
-  Gems ($7)
-</label>
-<br>
-<label>
-  <input type="checkbox" id = "tips" value="5">
-  Tips ($5)
-</label>
-<br>
-
-<h3> Massages </h3>
-<label>
-  Massage ($1 per minute)
-  <input type="number" id="massageminutes" min="0" value="0">
-</label>
-
-<h3> Total Price</h3>
-<aside>
-         <p class="total">Total:$<span id="cost">0</span></p>
-      </aside>
+<form>
 
 
-<<button onclick="showalert()">Click here for discount</button>
+    <label for="regular"> Regular - $25 </label>
+    <input type="number" id="regular" min="0" value="0">
+    <br>
+    <label> Regular - $35 </label>
+    <input type="number" id="gel" min="0" value="0">
+    <br>
+    <label> Powder - $45 </label>
+    <input type="number" id="powder" min="0" value="0">
+    <br>
+    <label> Hard Gel - $60 </label>
+    <input type="number" id="hardgel" min="0" value="0">
+    <br>
+    <label> Russian Gel - $45 </label>
+    <input type="number" id="russiangel" min="0" value="0">
+
+    <h3> Add ons </h3>
+    <label>
+        <input type="checkbox" id="design" value="10">
+        Design ($10)
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" id="french" value="10">
+        French ($10)
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" id="gems" value="7">
+        Gems ($7)
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" id="tips" value="5">
+        Tips ($5)
+    </label>
+    <br>
+
+    <h3> Massages </h3>
+    <label>
+        Massage ($1 per minute)
+        <input type="number" id="massageminutes" min="0" value="0">
+    </label>
+
+    <h3> Total Price</h3>
+    <aside>
+        <p class="total">Total:$<span id="cost">0</span></p>
+    </aside>
+</form>
+
+
+<button onclick="showalert()">Click here for discount</button>
 </body>
 <footer>
-123 Blossom Avenue Charlotte, NC 28205 &#183; <a href = "tel:+7045551234">(704) 555-1234</a>
+    123 Blossom Avenue Charlotte, NC 28205 &#183; <a href="tel:+7045551234">(704) 555-1234</a>
 </footer>
 </html>
