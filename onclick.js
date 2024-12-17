@@ -1,3 +1,3 @@
 function showalert(){
-    alert("use code 15OFF for 15% off")
+    alert("Mussy and Samantha want to give you the code Fall2024 for 15% off")
 }
