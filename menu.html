@@ -2,15 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Manicure</title>
+    <title>Menu</title>
     <script src="Manicure.js" defer> </script>
-    <link href="manicure.css" rel="stylesheet"/>
+     <script src = "onclick.js" defer></script>
+    <link href="menu.css" rel="stylesheet"/>
+    <link href="fixedtopage.css" rel="stylesheet"/>
 </head>
 <body>
-<h1>Manicure Pricing</h1>
+<h1>M&S Manicures</h1>
+<p class="names">Mussy and Samantha</p>
+<header>
+    <nav>
+        <a class="tab-box" href="AboutUs.html">About Us</a>
+        <a class="tab-box" href="menu.html">Menu</a>
+        <a class="tab-box" href="Hours.html">Hours</a>
+        <a class="tab-box" href="Reviews.html">Reviews</a>
 
-<h2> Manicure Type</h2>
-<label> Regular - $25 </label>
+    </nav>
+</header>
+<h2>Menu</h2>
+
+<h3> Manicure Type</h3>
+<label for="regular"> Regular - $25 </label>
 <input type="number" id="regular" min="0" value="0" >
 <br>
 <label> Regular - $35 </label>
@@ -25,7 +38,7 @@
  <label> Russian Gel - $45 </label>
 <input type="number" id="russiangel" min="0" value="0" >
 
-<h2> Add ons </h2>
+<h3> Add ons </h3>
 <label>
   <input type="checkbox" id = "design" value="10">
   Design ($10)
@@ -47,19 +60,21 @@
 </label>
 <br>
 
-<h2> Massages </h2>
+<h3> Massages </h3>
 <label>
   Massage ($1 per minute)
   <input type="number" id="massageminutes" min="0" value="0">
 </label>
 
-<h2> Total Price</h2>
+<h3> Total Price</h3>
 <aside>
-         <p>Total:$<span id="cost">0</span></p>
+         <p class="total">Total:$<span id="cost">0</span></p>
       </aside>
 
-<footer>
-    <a href="M&S.html"> Back to main page </a>
-</footer>
+
+<<button onclick="showalert()">Click here for discount</button>
 </body>
+<footer>
+123 Blossom Avenue Charlotte, NC 28205 &#183; <a href = "tel:+7045551234">(704) 555-1234</a>
+</footer>
 </html>

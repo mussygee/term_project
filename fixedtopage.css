@@ -1,0 +1,58 @@
+
+body {
+    background-image: url("flowers.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 3.4em;
+    text-align: center;
+    margin-bottom: -20px;
+}
+ p.names {
+     font-size: .8em;
+     text-align: center;
+     padding-right: 17%;
+
+}
+
+ a.tab-box {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6em;
+
+}
+
+nav {
+    text-align: center;
+
+}
+
+.tab-box {
+      background-color: #ffffff; /* White background */
+      border: 2px solid #ccc; /* Light gray border */
+      border-radius: 8px; /* Slightly rounded edges */
+      padding: 5px; /* Spacing inside the box */
+      text-align: center; /* Center the text and link */
+      width: 300px; /* Fixed width */
+      margin: 20px auto; /* Center the box horizontally */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+      transition: box-shadow 0.3s ease-in-out;
+}
+
+.tab-box:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+

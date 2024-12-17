@@ -1,0 +1,18 @@
+
+footer {
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+
+img {
+    text-align: center;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    padding-left: 75px;
+}
+

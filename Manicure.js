@@ -47,7 +47,7 @@ function TotalCost() {
     massagecost = massageminute;
 
     let totalcost = manicuretypecost + addonPrice + massagecost;
-document.getElementById("cost").innerText =  "$" + totalcost;
+document.getElementById("cost").innerText = totalcost;
 
 
 }

@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title> Reviews </title>
+    <link href="fixedtopage.css" rel="stylesheet"/>
+     <script src = "onclick.js" defer></script>
+    <style>
+        p.about {
+            padding-right: 500px;
+            padding-left: 500px;
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    </style>
 </head>
 <body>
-<h1> Reviews </h1>
-<p> <strong>"Absolutely Amazing Experience!" </strong> ⭐⭐⭐⭐⭐ </p>
-<p>
+<h1>M&S Manicures</h1>
+<p class="names">Mussy and Samantha</p>
+<header>
+    <nav>
+        <a class="tab-box" href="AboutUs.html">About Us</a>
+        <a class="tab-box" href="menu.html">Menu</a>
+        <a class="tab-box" href="Hours.html">Hours</a>
+        <a class="tab-box" href="Reviews.html">Reviews</a>
+
+    </nav>
+</header>
+<h2> Reviews </h2>
+
+<p class="about"> <strong>"Absolutely Amazing Experience!" </strong> ⭐⭐⭐⭐⭐ </p>
+<p class="about">
   I had my first manicure at M&S Manicures and I
   couldn't be more pleased! The salon is
   beautiful, the staff is incredibly friendly,
@@ -18,8 +42,9 @@
   looking for a professional, relaxing manicure
   experience!
 </p>
+<p class="about">
 <strong> "The Best Manicure I’ve Ever Had!" </strong> ⭐⭐⭐⭐⭐ </p>
-<p> M&S Manicures exceeded all of my expectations!
+<p class="about"> M&S Manicures exceeded all of my expectations!
 From the moment I walked in, I felt welcomed
 and pampered. The technician was so
 knowledgeable and helped me choose the perfect
@@ -28,8 +53,10 @@ flawless, and it lasted for weeks! I’ll
 definitely be coming back for all my
 future manicures. Highly recommend!
 </p>
- <footer>
-   <a href="M&S.html"> Back to main page </a>
- </footer>
+
+<button onclick="showalert()">Click here for discount</button>
 </body>
+<footer>
+123 Blossom Avenue Charlotte, NC 28205 &#183; <a href = "tel:+7045551234">(704) 555-1234</a>
+</footer>
 </html>

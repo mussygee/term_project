@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us </title>
+    <link href="fixedtopage.css" rel="stylesheet"/>
+     <script src = "onclick.js" defer></script>
+    <style>
+        p.about {
+            padding-right: 500px;
+            padding-left: 500px;
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+    </style>
+
 </head>
 <body>
-<h1> About Us </h1>
 
-<p> At M&S Manicures, we
+<h1>M&S Manicures</h1>
+<p class="names">Mussy and Samantha</p>
+<header>
+    <nav>
+        <a class="tab-box" href="AboutUs.html">About Us</a>
+        <a class="tab-box" href="menu.html">Menu</a>
+        <a class="tab-box" href="Hours.html">Hours</a>
+        <a class="tab-box" href="Reviews.html">Reviews</a>
+
+    </nav>
+</header>
+<h2> About Us </h2>
+
+<p class="about"> At M&S Manicures, we
     specialize in providing exceptional
     manicure services that leave your nails looking flawless and feeling pampered.
     Our salon is dedicated to offering the highest quality nail care in a relaxing,
@@ -15,15 +40,18 @@
     a fresh new design, or a luxurious treatment, our expert technicians ensure every
     detail is perfect.
 </p>
-We use only the finest products and maintain
+<p class="about"> We use only the finest products and maintain
 impeccable hygiene standards, all while
 providing a personalized experience to
 match your unique style. At M&S Manicures,
 your nails are in expert hands, and we’re
 here to help you look and feel your absolute
 best.
+</p>
 
-<footer> <a href="M&S.html"> Back to main page </a></footer>
-
+<button onclick="showalert()">Click here for discount</button>
 </body>
+<footer>
+123 Blossom Avenue Charlotte, NC 28205 &#183; <a href = "tel:+7045551234">(704) 555-1234</a>
+</footer>
 </html>

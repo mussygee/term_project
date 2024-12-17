@@ -1,0 +1,21 @@
+
+
+h2{
+    color: #40156b;
+    font-size:36px;
+    font-style: italic;
+
+
+}
+h3{
+    color: #574281;
+     font-size:28px;
+}
+
+
+label, p.total{
+    color: #323246;
+     font-size:18px;
+    font-weight: bold;
+}
+
