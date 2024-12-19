@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("../flowers.jpg");
+    background-image: url("../images/flowers.jpg");
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
@@ -21,6 +21,7 @@ h1 {
     text-align: center;
     margin-bottom: -35px;
     font-family: "Segoe Script";
+
 }
  p.names {
      font-size: .8em;

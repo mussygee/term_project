@@ -19,3 +19,12 @@ label, p.total{
     font-weight: bold;
 }
 
+input{
+    width: 50px;
+    color: mediumpurple;
+}
+input:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+
+
+}
